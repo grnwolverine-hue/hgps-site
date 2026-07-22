@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client portal | Highground Property Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="logo-assets/HGPS_icon_transparent.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="logo-assets/HGPS_brand_mark_ongold.png" alt="" class="logo-mark">
+      <div class="logo-text">
+        <div class="logo-title">Highground</div>
+        <div class="logo-subtitle">Property Services</div>
+      </div>
+    </a>
+    <div class="nav-links">      <a href="index.html#fork">Residential</a>      <a href="index.html#fork">Commercial</a>      <a href="index.html#how-it-works">How it works</a>      <a href="index.html#services">Services</a>    </div>
+    <a href="index.html" class="btn btn-ghost">Back to home</a>
+  </nav>
+</header>
+<div class="page-band">
+  <div class="wrap page-band-inner">
+    <div class="avatar-badge" style="width:46px;height:46px;font-size:14px;">JR</div>
+    <div>
+      <h1>Client portal</h1>
+      <p>Highground Property Services</p>
+    </div>
+  </div>
+</div>
+
+<div class="page-body">
+  <div class="wrap form-shell">
+
+    <div id="upcomingSection" style="display:none;">
+      <h3 style="font-size:13px;font-weight:600;color:var(--ink-soft);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:10px;">Upcoming appointment</h3>
+      <div class="portal-card highlight" style="margin-bottom:24px;">
+        <div class="portal-row">
+          <div>
+            <p style="font-size:14px;font-weight:600;color:var(--navy);margin-bottom:4px;" data-hgps="slot">No slot selected</p>
+            <p style="font-size:13px;color:var(--ink-soft);" id="upcomingDetail"></p>
+          </div>
+          <span class="badge-status">Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-size:13px;font-weight:600;color:var(--ink-soft);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:10px;">Booking history</h3>    <div class="portal-card">
+      <div class="portal-row">
+        <div>
+          <p style="font-size:13.5px;font-weight:600;color:var(--navy);margin-bottom:2px;">Jun 15, 2026</p>
+          <p style="font-size:12.5px;color:var(--ink-soft);">Residential &middot; Lawn and landscaping</p>
+        </div>
+        <div style="text-align:right;">
+          <p style="font-size:13.5px;font-weight:600;color:var(--navy);margin-bottom:6px;">$450.00</p>
+          <button type="button" class="btn btn-ghost" style="font-size:11.5px;padding:6px 12px;">View invoice</button>
+        </div>
+      </div>
+    </div>    <div class="portal-card">
+      <div class="portal-row">
+        <div>
+          <p style="font-size:13.5px;font-weight:600;color:var(--navy);margin-bottom:2px;">May 2, 2026</p>
+          <p style="font-size:12.5px;color:var(--ink-soft);">Residential &middot; Window cleaning, gutter cleaning</p>
+        </div>
+        <div style="text-align:right;">
+          <p style="font-size:13.5px;font-weight:600;color:var(--navy);margin-bottom:6px;">$600.00</p>
+          <button type="button" class="btn btn-ghost" style="font-size:11.5px;padding:6px 12px;">View invoice</button>
+        </div>
+      </div>
+    </div>    <div class="portal-card" style="margin-bottom:24px;">
+      <div class="portal-row">
+        <div>
+          <p style="font-size:13.5px;font-weight:600;color:var(--navy);margin-bottom:2px;">Mar 20, 2026</p>
+          <p style="font-size:12.5px;color:var(--ink-soft);">Commercial &middot; HVAC maintenance</p>
+        </div>
+        <div style="text-align:right;">
+          <p style="font-size:13.5px;font-weight:600;color:var(--navy);margin-bottom:6px;">$900.00</p>
+          <button type="button" class="btn btn-ghost" style="font-size:11.5px;padding:6px 12px;">View invoice</button>
+        </div>
+      </div>
+    </div>
+    <h3 style="font-size:13px;font-weight:600;color:var(--ink-soft);text-transform:uppercase;letter-spacing:0.04em;margin-bottom:10px;">Payment method</h3>
+    <div class="portal-card">
+      <div class="portal-row" style="align-items:center;">
+        <div style="display:flex;align-items:center;gap:9px;">
+          <svg viewBox="0 0 24 24" fill="none" style="width:18px;height:18px;"><rect x="2" y="6" width="20" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M2 10h20" stroke="currentColor" stroke-width="1.6"/></svg>
+          <p style="font-size:13.5px;">Visa ending in 4242</p>
+        </div>
+        <button type="button" class="btn btn-ghost" style="font-size:12px;padding:6px 14px;">Update</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <img src="logo-assets/HGPS_white_lockup_transparent.png" alt="Highground Property Services" style="height:44px;width:auto;margin-bottom:16px;">
+        <p style="font-size:13.5px;color:#9fb3bd;max-width:260px;">Residential and commercial property maintenance, booked and paid online in minutes &mdash; built on 25+ years of hands-on construction and maintenance experience.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="index.html#services">About</a>
+        <a href="index.html#services">Service area</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <a href="residential-request.html">Residential</a>
+        <a href="commercial-request.html">Commercial</a>
+        <a href="client-portal.html">Client portal</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="tel:+10000000000">(000) 000-0000</a>
+        <a href="mailto:info@highgroundpropertyservices.com">info@highgroundpropertyservices.com</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Prince%20George%2C%20BC" target="_blank" rel="noopener">Prince George, BC</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Highground Property Services. All rights reserved.</span>
+      <span>Licensed &amp; insured</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+<script>
+  (function(){
+    const data = hgpsGetBooking();
+    if(data.slotDay && data.slotTime){
+      document.getElementById('upcomingSection').style.display = 'block';
+      const pathLabel = data.path === 'commercial' ? 'Commercial' : 'Residential';
+      document.getElementById('upcomingDetail').textContent = pathLabel + ' · ' + hgpsFormatServices(data.services);
+    }
+  })();
+</script>
+</body>
+</html>
