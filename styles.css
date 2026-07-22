@@ -383,7 +383,15 @@ textarea{resize:vertical;min-height:80px;}
   .hero-inner{grid-template-columns:1fr;}
   .hero-card{margin-top:20px;transform:none;}
   .hero h1{font-size:34px;}
-  .fork-grid{grid-template-columns:1fr;gap:16px;}
+  .fork-grid{grid-template-columns:1fr 1fr;gap:10px;}
+  .fork-photo{display:none;}
+  .fork-card-body{padding:16px 14px 18px;}
+  .fork-card h3{font-size:15px;margin-bottom:6px;}
+  .fork-card p.desc{font-size:11.5px;margin-bottom:12px;}
+  .tag-list{gap:5px;margin-bottom:14px;}
+  .tag{font-size:10.5px;padding:4px 8px;}
+  .fork-cta{font-size:12px;gap:5px;}
+  .fork-cta svg{width:13px;height:13px;}
   .steps-grid{grid-template-columns:1fr;gap:20px;}
   .services-grid{grid-template-columns:repeat(2,1fr);}
   .footer-grid{grid-template-columns:1fr 1fr;gap:28px 20px;}
@@ -397,13 +405,25 @@ textarea{resize:vertical;min-height:80px;}
   .slot-week{grid-template-columns:repeat(4,1fr);}
   .panel{padding:22px;}
 
+  /* Kill the large empty gap under the sticky header */
+  .hero{padding:28px 0 0;}
+  .eyebrow{margin-bottom:16px;}
+  .hero-tel{margin:-14px 0 28px;}
+  .hero-actions{margin-bottom:28px;}
+
   /* Tighter section rhythm so more of each section fits per screen */
   section{padding:52px 0;}
   .section-head{margin-bottom:32px;}
   .section-head h2{font-size:26px;}
   .step-num{width:32px;height:32px;font-size:13px;margin-bottom:14px;}
-  .fork-photo{height:130px;}
-  .fork-card-body{padding:22px 22px 26px;}
+
+  /* Compact service chips — fit far more per screen */
+  .services-grid{gap:8px;}
+  .service-chip{padding:12px 10px;gap:6px;}
+  .service-chip svg{width:16px;height:16px;}
+  .service-chip span{font-size:12px;line-height:1.25;}
+  .service-chip small{font-size:10px;}
+  .service-dropdown{display:none;}
   .trust-section.with-photo{grid-template-columns:1fr;padding:32px;}
   .testimonial-photo{height:160px;order:-1;}
 
