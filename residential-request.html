@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Residential service request | Highground Property Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="logo-assets/HGPS_icon_transparent.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="logo-assets/HGPS_brand_mark_ongold.png" alt="" class="logo-mark">
+      <div class="logo-text">
+        <div class="logo-title">Highground</div>
+        <div class="logo-subtitle">Property Services</div>
+      </div>
+    </a>
+    <div class="nav-links">      <a href="index.html#fork">Residential</a>      <a href="index.html#fork">Commercial</a>      <a href="index.html#how-it-works">How it works</a>      <a href="index.html#services">Services</a>      <a href="client-portal.html">Client portal</a>    </div>
+    <a href="index.html" class="btn btn-ghost">Back to home</a>
+  </nav>
+</header>
+<div class="page-band">
+  <div class="wrap page-band-inner">
+    <div class="page-band-icon">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M3 11l9-7 9 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 10v10h14V10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 20v-6h6v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div>
+      <h1>Residential service request</h1>
+      <p>Highground Property Services</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="stepper">
+      <div class="step-pill active"><span class="dot">1</span>Request</div>
+      <div class="step-sep"></div>
+      <div class="step-pill"><span class="dot">2</span>Schedule</div>
+      <div class="step-sep"></div>
+      <div class="step-pill"><span class="dot">3</span>Confirm</div>
+    </div>
+  </div>
+</div>
+
+<div class="page-body">
+  <div class="wrap form-shell">
+    <form id="requestForm">
+
+      <div class="panel">
+        <h3>Contact and property</h3>
+        <div class="field-row">
+          <div>
+            <label class="field-label">Full name</label>
+            <input type="text" name="contactName" placeholder="Jamie Rivera" required>
+          </div>
+          <div>
+            <label class="field-label">Phone number</label>
+            <input type="tel" name="phone" placeholder="(555) 555-0100" required>
+          </div>
+        </div>
+        <div class="field-row single">
+          <div>
+            <label class="field-label">Property address</label>
+            <input type="text" name="address" placeholder="123 Maple Street" required>
+          </div>
+        </div>      </div>
+
+      <div class="panel">
+        <h3>Services needed</h3>
+        <div class="checkbox-grid">          <label class="checkbox-item"><input type="checkbox" name="service" value="Lawn and landscaping" checked>Lawn and landscaping</label>          <label class="checkbox-item"><input type="checkbox" name="service" value="Gutter cleaning">Gutter cleaning</label>          <label class="checkbox-item"><input type="checkbox" name="service" value="Window cleaning">Window cleaning</label>          <label class="checkbox-item"><input type="checkbox" name="service" value="General handyman">General handyman</label>          <label class="checkbox-item"><input type="checkbox" name="service" value="Holiday lighting">Holiday lighting</label>          <label class="checkbox-item"><input type="checkbox" name="service" value="Move-out cleaning">Move-out cleaning</label>        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Scheduling preference</h3>
+        <div class="field-row">
+          <div>
+            <label class="field-label">Job type</label>
+            <select name="frequency">
+              <option>One-time job</option>
+              <option>Recurring maintenance</option>
+            </select>
+          </div>
+          <div>
+            <label class="field-label">Preferred time</label>
+            <select name="timePref">
+              <option>No preference</option>
+              <option>Mornings</option>
+              <option>Afternoons</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Access notes</h3>
+        <textarea name="accessNotes" placeholder="Gate code, pets on property, areas to avoid"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Continue to scheduling
+        <svg class="icon" style="width:16px;height:16px;stroke:#2b2004;" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+      <div class="helper-note">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="10" width="16" height="10" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 10V7a4 4 0 018 0v3" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span>Next step: pick a time slot and prepay to confirm your booking.</span>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <img src="logo-assets/HGPS_white_lockup_transparent.png" alt="Highground Property Services" style="height:44px;width:auto;margin-bottom:16px;">
+        <p style="font-size:13.5px;color:#9fb3bd;max-width:260px;">Residential and commercial property maintenance, booked and paid online in minutes &mdash; built on 25+ years of hands-on construction and maintenance experience.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="index.html#services">About</a>
+        <a href="index.html#services">Service area</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <a href="residential-request.html">Residential</a>
+        <a href="commercial-request.html">Commercial</a>
+        <a href="client-portal.html">Client portal</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="tel:+10000000000">(000) 000-0000</a>
+        <a href="mailto:info@highgroundpropertyservices.com">info@highgroundpropertyservices.com</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Prince%20George%2C%20BC" target="_blank" rel="noopener">Prince George, BC</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Highground Property Services. All rights reserved.</span>
+      <span>Licensed &amp; insured</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+<script>
+  hgpsInitRequestForm(document.getElementById('requestForm'), 'residential', 'booking-residential.html');
+</script>
+</body>
+</html>
